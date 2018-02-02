@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/gsilvapt/node-terminal-weatherapp.svg?branch=master)](https://travis-ci.org/gsilvapt/node-terminal-weatherapp)
+
 # Node.JS terminal weather app
 
 This app was built during Udemy's Node.JS developer course, where the goal was to explore Promises, HTTP requests and Node itself.
