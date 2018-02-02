@@ -3,14 +3,29 @@
   "version": "1.0.0",
   "description": "node js course weather app",
   "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "gsjlvapt",
   "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
   "dependencies": {
     "axios": "^0.17.1",
     "request": "^2.83.0",
     "yargs": "^11.0.0"
-  }
+  },
+  "scripts": {
+    "test": "jshint lib/app.js"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsilvapt/node-terminal-weatherapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gsilvapt/node-terminal-weatherapp/issues"
+  },
+  "homepage": "https://github.com/gsilvapt/node-terminal-weatherapp#readme"
 }
